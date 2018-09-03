@@ -3,9 +3,10 @@
    LABEL maintainer="zauxst" \
     maintainer="mstefan"
 #Update Ubuntu Software repository
-   RUN yum install -y python-pip && \
+   RUN yum install -y epel-release && \
+        yum install -y python-pip && \
         pip install --upgrade pip && \
-        python -m pip install ansible
+        pip install -y ansible
 #Show Ansible install location and version
 #    RUN ansible --version && \
 #       ansible -m ping localhost
