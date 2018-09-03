@@ -6,7 +6,7 @@
    RUN yum install -y epel-release && \
         yum install -y python-pip && \
         pip install --upgrade pip && \
-        pip install -y ansible
+        pip install ansible
 #Show Ansible install location and version
 #    RUN ansible --version && \
 #       ansible -m ping localhost
