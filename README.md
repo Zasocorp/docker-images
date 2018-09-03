@@ -13,3 +13,4 @@ used to test ansible scripts.
 ### Ubuntu
 [![](https://images.microbadger.com/badges/version/zasocorp/docker-ansible.svg)](https://microbadger.com/images/zasocorp/docker-ansible "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/zasocorp/docker-ansible.svg)](https://microbadger.com/images/zasocorp/docker-ansible "Get your own image badge on microbadger.com")
 ### CentOS
+[]
